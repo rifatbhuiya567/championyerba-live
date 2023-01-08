@@ -1,0 +1,518 @@
+/* 
+-----------------
+Template Name : Champion Yerba Website
+Author : Rifat Bhuiya
+Author E-mail : rifatbhuiya.personal@gmail.com 
+Version : 01.00
+-----------------
+
+-----------------
+Table of content
+-----------------
+0. Common Css Start
+1. HeaderArea Css Start
+2. HeroArea Css Start
+3. AthleticArea Css Start
+4. VariationArea Css Start
+5. FooterArea Css Start
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol,
+li,
+a,
+p,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: #fafafa;
+    background-color: #02101a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-gradient {
+    background: linear-gradient(90deg, #62b3e8 , #5BF5E0);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sectionGap {
+    padding: 120px 0;
+}
+
+.sectionHeading {
+    text-align: center;
+}
+
+.sectionHeading h3 {
+    font: 700 35px/1.55 'Chakra Petch', sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    top: 0;
+    left: 0;
+    padding-bottom: 4px;
+}
+
+.sectionHeading h3::after {
+    position: absolute;
+    content: '';
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #5BF5E0;
+}
+
+.sectionHeading h3::before {
+    position: absolute;
+    content: '';
+    height: 16px;
+    width: 16px;
+    bottom: -6px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+    -webkit-transform: translateX(-50%) rotate(45deg);
+    -moz-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+    -o-transform: translateX(-50%) rotate(45deg);
+    background-color: #5BF5E0;
+    border: 2px solid #02101a;
+    z-index: 1;
+}
+
+.sectionHeadingGap {
+    margin-top: 64px;
+}
+
+.inFlex {
+    display: inline-flex;
+    align-items: center;
+} 
+
+.btnStyle {
+    gap: 12px;
+    padding: 8px 32px;
+    text-align: center;
+    color: #000 !important;
+    text-transform: capitalize;
+    font: 500 18px/1.55 'Poppins', sans-serif;
+    background: linear-gradient(90deg, #62b3e8 , #5BF5E0);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    opacity: 1;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.btnStyle:hover {
+    opacity: .8;
+}
+
+.btnStyle i {
+    font-size: 16px;
+}
+
+/* 
+    ---------------------
+    Common Area Css End
+    ---------------------
+*/
+
+header .headerMarquee {
+    padding: 4px 0;
+    background-color: #5BF5E0;
+}
+
+header .headerMarquee .marqueText {
+    color: #111;
+    text-transform: capitalize;
+    font: 500 18px/1.3 'Poppins', sans-serif;
+}
+
+.headerSocialIcons {
+    text-align: end;
+}
+
+.headerSocialIcons ul {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.headerSocialIcons ul li a {
+    color: #111;
+    font-size: 24px;
+}
+
+#navbar {
+    background-color: #01090f;
+    box-shadow: .5px .5px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.navbarFixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+    animation: navAnimation ease .5s;
+    -webkit-animation: navAnimation ease .5s;
+}
+
+@keyframes navAnimation {
+    0% {
+        top: -32px;
+    }
+
+    100% {
+        top: 0;
+    }
+}
+
+#navbar .myLogo img {
+    width: 240px;
+}
+
+#navbar .myUl li {
+    padding: 0 8px;
+}
+
+#navbar .myUl li a {
+    color: #fff;
+    font: 600 18px/1.5 'Poppins', sans-serif;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+#navbar .myUl li a:hover {
+    color: #62b3e8;
+}
+
+#navbar .myUl li a::after,
+#navbar .myUl li a::before {
+    position: absolute;
+    content: '';
+    left: 8px;
+    height: 1px;
+    width: 0;
+    background-color: #62b3e8;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+
+#navbar .myUl li a::after {
+    bottom: 6px;
+}
+
+#navbar .myUl li a::before {
+    bottom: 2px;
+}
+
+#navbar .myUl li a:hover::after {
+    width: calc(100% - 40px);
+}
+
+#navbar .myUl li a:hover::before {
+    width: calc(100% - 50px);
+}
+/* 
+    ---------------------
+    Header Area Css End
+    ---------------------
+*/
+
+.heroAreaBanner {
+    height: 540px;
+    background: url(../images/heroarea-banner.jpg) no-repeat center / cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    background-attachment: fixed;
+}
+
+.heroAreaBanner::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+.heroAreaBanner .container,
+.row {
+    height: 100%;
+}
+
+.heroAreaHeading {
+    text-align: center;
+}
+
+.heroAreaHeading h2 {
+    font: 300 44px/1.55 'Poppins', sans-serif;
+    margin-bottom: 12px;
+}
+
+.heroAreaHeading h1 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: -1px;
+    font: 900 65px/1.1 'Poppins', sans-serif;
+}
+
+.heroAreaHeading h1 span {
+    color: #62b3e8;
+}
+
+.heroAreaHeading p {
+    margin-top: 16px;
+    font: 400 18px/1.3 'Poppins', sans-serif;
+}
+
+.heroAreaBtn {
+    margin-top: 32px;
+}
+
+/* 
+    ---------------------
+    HeroArea Css End
+    ---------------------
+*/
+
+.athleticImg {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.athleticImg::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.athleticImg img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.athleticBenefit h4 {
+    text-transform: capitalize;
+    color: #fff;
+    font: 800 28px/1.5 'Poppins', sans-serif;
+    margin-bottom: 16px;
+}
+
+.athleticBenefit p {
+    font: 400 18px/1.3 'Poppins', sans-serif;
+    margin-bottom: 12px;
+}
+
+.athleticBenefit p span {
+    color: #62b3e8;
+}
+
+/* 
+    ---------------------
+    AthleticArea Css End
+    ---------------------
+*/
+
+#variation {
+    background-color: #0d1820;
+}
+
+.productContent {
+    padding: 4px 6px;
+    background-color: #02101a;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+    border: 1px solid rgba(98, 178, 232, 0.150);
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+
+.productContent:hover {
+    border: 1px solid rgba(98, 178, 232, 0.350);
+    transform: translateY(-3px);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+}
+
+.productContent .img {
+    height: 240px;
+    overflow: hidden;
+}
+
+.productContent .img img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+
+.productContent:hover .img img {
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+}
+
+.productContent .content {
+    padding: 8px;
+}
+
+.productContent .content h5 {
+    font: 300 23px/1.5 'Poppins', sans-serif;
+    margin-bottom: 8px;
+}
+
+.productContent .content .amount {
+    color: #fff;
+    font: 600 25px/1.5 'Poppins', sans-serif;
+}
+
+.content .amount .currency {
+    color: #62b3e8;
+}
+
+.priceAction {
+    margin-top: 16px;
+}
+
+.priceAction .btnStyle {
+    width: 100%;
+}
+
+/* 
+    ---------------------
+    VariationArea Css End
+    ---------------------
+*/
+
+footer {
+    padding: 40px 0;
+    background-color: #000;
+}
+
+.copyRight p {
+    font: 400 14px/1.5 'Poppins', sans-serif;
+} 
+
+.copyRight p a {
+    color: #62b3e8;
+    transition: all ease .3s;
+    -webkit-transition: all ease .3s;
+    -moz-transition: all ease .3s;
+    -ms-transition: all ease .3s;
+    -o-transition: all ease .3s;
+}
+
+.copyRight p a:hover {
+    text-decoration: underline;
+}
+
+.footerLinks ul {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    justify-content: end;
+}
+
+.footerLinks ul li a {
+    color: #fafafa;
+    font-size: 32px;
+}
+
+/* 
+    ---------------------
+    FooterArea Css End
+    ---------------------
+*/

@@ -1,0 +1,279 @@
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .heroAreaHeading h1 {
+        font: 900 55px/1.1 'Poppins', sans-serif;
+    }
+
+    .productContent .content {
+        padding: 4px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .sectionHeading h3 {
+        font: 700 32px/1.55 'Chakra Petch', sans-serif;
+    }
+
+    .sectionGap {
+        padding: 80px 0;
+    }
+
+    .btnStyle {
+        font: 500 17px/1.55 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading h2 {
+        font: 300 40px/1.55 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading h1 {
+        font: 900 50px/1.1 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading p {
+        font: 400 17px/1.3 'Poppins', sans-serif;
+    }
+
+    .athleticBenefit {
+        margin-top: 16px;
+    }
+
+    .athleticBenefit h4 {
+        font: 800 25px/1.5 'Poppins', sans-serif;
+    }
+
+    .athleticBenefit p {
+        font: 400 17px/1.3 'Poppins', sans-serif;
+    }
+
+    #variation .mGap {
+        margin-top: 16px;
+    }
+
+    .productContent .content h5 {
+        font: 300 21px/1.5 'Poppins', sans-serif;
+    }
+
+    .productContent .content .amount {
+        font: 600 23px/1.5 'Poppins', sans-serif;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sectionHeading h3 {
+        font: 700 30px/1.55 'Chakra Petch', sans-serif;
+    }
+
+    .sectionGap {
+        padding: 64px 0;
+    }
+
+    .btnStyle {
+        font: 500 16px/1.55 'Poppins', sans-serif;
+    }
+
+    header .headerMarquee .marqueText {
+        font: 500 16px/1.3 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading h2 {
+        font: 300 40px/1.55 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading h1 {
+        font: 900 48px/1.1 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading p {
+        font: 400 16px/1.3 'Poppins', sans-serif;
+    }
+
+    .athleticBenefit {
+        margin-top: 16px;
+    }
+
+    .athleticBenefit h4 {
+        font: 800 23px/1.5 'Poppins', sans-serif;
+    }
+
+    .athleticBenefit p {
+        font: 400 16px/1.3 'Poppins', sans-serif;
+    }
+
+    #variation .mGap {
+        margin-top: 16px;
+    }
+
+    .productContent .content h5 {
+        font: 300 20px/1.5 'Poppins', sans-serif;
+    }
+
+    .productContent .content .amount {
+        font: 600 21px/1.5 'Poppins', sans-serif;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footerLinks {
+        margin-top: 16px;
+    }
+
+    .footerLinks ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .navToggleBar {
+        color: #fff;
+    }
+
+    .myUl {
+        margin-top: 12px;
+        text-align: center;
+    }
+
+    .myUl li a::after,
+    .myUl li a::before {
+        display: none;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .sectionHeading h3 {
+        font: 700 28px/1.55 'Chakra Petch', sans-serif;
+    }
+
+    .sectionGap {
+        padding: 48px 0;
+    }
+
+    .sectionHeadingGap {
+        margin-top: 40px;
+    }
+
+    .btnStyle {
+        padding: 8px 24px;
+        font: 500 15px/1.55 'Poppins', sans-serif;
+    }
+
+    .sectionHeading h3::before {
+        height: 14px;
+        width: 14px;
+        bottom: -6px;
+    }
+
+    .headerMarquee {
+        display: none;
+    }
+
+    #navbar .myLogo img {
+        width: 200px;
+    }
+
+    .heroAreaBanner {
+        height: 440px;
+    }
+
+    .heroAreaHeading h2 {
+        margin-bottom: 8px;
+        font: 300 32px/1.55 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading h1 {
+        font: 900 44px/1.1 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading p {
+        margin-top: 12px;
+        font: 400 15px/1.3 'Poppins', sans-serif;
+    }
+
+    .heroAreaBtn {
+        margin-top: 24px;
+    }
+
+    .athleticBenefit {
+        margin-top: 16px;
+    }
+
+    .athleticBenefit h4 {
+        font: 800 20px/1.5 'Poppins', sans-serif;
+    }
+
+    .athleticBenefit p {
+        font: 400 15px/1.3 'Poppins', sans-serif;
+    }
+
+    #variation .sCenter {
+        justify-content: center;
+    }
+
+    #variation .sGap {
+        margin-top: 16px;
+    }
+
+    .productContent .img {
+        height: 280px;
+    }
+
+    .productContent .content h5 {
+        font: 300 18px/1.5 'Poppins', sans-serif;
+    }
+
+    .productContent .content .amount {
+        font: 600 20px/1.5 'Poppins', sans-serif;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    .footerLinks {
+        margin-top: 16px;
+    }
+
+    .footerLinks ul {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 421.98px) {
+    .sectionHeading h3 {
+        padding-bottom: 6px;
+        font: 700 20px/1.55 'Chakra Petch', sans-serif;
+    }
+
+    .sectionHeading h3::before {
+        height: 12px;
+        width: 12px;
+        bottom: -5px;
+    }
+
+    #navbar .myLogo img {
+        width: 180px;
+    }
+
+    .heroAreaBanner {
+        height: 372px;
+    }
+
+    .heroAreaHeading h2 {
+        margin-bottom: 6px;
+        font: 300 26px/1.55 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading h1 {
+        font: 900 33px/1.1 'Poppins', sans-serif;
+    }
+
+    .heroAreaHeading p {
+        margin-top: 10px;
+        font: 400 13px/1.3 'Poppins', sans-serif;
+    }
+
+    .productContent .img {
+        height: 240px;
+    }
+}
